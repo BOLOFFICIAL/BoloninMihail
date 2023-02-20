@@ -1,22 +1,61 @@
-html {
-  font-size: 14px;
+.body {
+    margin: 0;
+}
+.separator {
+    height: 20px;
+    width: 100%;
+    background-color: red;
+}
+.text {
+    font-size: 3em;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.photo {
+    background-image: url('https://sun9-70.userapi.com/impg/XoBjj4xZkk1pLd2qigKaxW384zz8dwtPomavkg/o-RnV1kpu60.jpg?size=2560x2560&quality=95&sign=6880131caaabcd7964fc39596af68331&type=album');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.links {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.link {
+    display: block;
+    margin: 10px;
+    width: 30%;
+    height: 50px;
+    background-color: pink;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin-bottom: 60px;
+    .link:hover {
+        background-color: #00bcd4;
+    }
+
+.a {
+    text-decoration: none;
 }
+
+.a:hover {
+    color: white;
+}
+
+
+    
