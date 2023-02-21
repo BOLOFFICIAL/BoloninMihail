@@ -16,7 +16,7 @@
 }
 
 .photo {
-    background-image: url('https://sun9-70.userapi.com/impg/XoBjj4xZkk1pLd2qigKaxW384zz8dwtPomavkg/o-RnV1kpu60.jpg?size=2560x2560&quality=95&sign=6880131caaabcd7964fc39596af68331&type=album');
+    background-image: <img src="image/1.jpg">;
     background-size: cover;
     background-position: center;
     height: 100vh;
