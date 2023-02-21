@@ -16,7 +16,7 @@
 }
 
 .photo {
-    background-image: <img src="image/1.jpg">;
+    background-image: url('https://github.com/BOLOFFICIAL/BoloninMihail/blob/master/image/1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
