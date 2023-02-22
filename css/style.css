@@ -8,11 +8,10 @@ html
     margin: 0;
 }
 
-.photo 
-{
+.photo {
     height: 100vh;
     width: 100%;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .material-icons 
