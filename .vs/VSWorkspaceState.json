@@ -3,8 +3,9 @@
     "",
     "\\css",
     "\\image",
+    "\\image\\logo",
     "\\image\\main"
   ],
-  "SelectedNode": "\\image\\main\\2.jpg",
+  "SelectedNode": "\\image\\logo\\logo.ico",
   "PreviewInSolutionExplorer": false
 }
