@@ -3,9 +3,9 @@ html
     scroll-behavior: smooth;
     background-color: #eeeeee;
 }
-.body 
-{
+.body {
     margin: 0;
+    font-family: 'Mulish', sans-serif;
 }
 
 .photo {
@@ -70,7 +70,7 @@ footer
 {
     top: 0;
     height: 100%;
-    font-size: 50px;
+    font-size: 35px;
     padding: 20px;
     background-color: #c63848;
     color:white;
