@@ -75,6 +75,7 @@ footer
     padding: 10px 0 10px 0;
     width: 85%;
     margin: 0px auto;
+    min-height: 50vh;
 }
 .resume {
     display: flex;
@@ -89,7 +90,7 @@ footer
     height: 100px;
     max-width: 250px;
     border-radius: 10px;
-    font-weight:900;
+    font-weight: 900;
 }
 .contact {
     text-align: center;
