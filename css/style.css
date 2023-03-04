@@ -74,7 +74,7 @@ footer
 }
 .content {
     padding: 10px 0 10px 0;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .contact {
@@ -83,7 +83,7 @@ footer
     width: 60%;
     margin: 0 auto;
     padding: 20px;
-    /*height: 100vh;*/
+    height: 100vh;
 }
 
 .all_links {
