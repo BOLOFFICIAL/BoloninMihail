@@ -31,11 +31,14 @@ html
 a {
     text-decoration: none;
     color: black;}
+    
+    a:hover {
+        font-weight: bold;
+    }
 
     .a:hover 
     {
         color: #c63848;
-        font-weight: bold;
     }
 
 footer 
@@ -67,7 +70,7 @@ footer
 {
     top: 0;
     height: 100%;
-    font-size: 35px;
+    font-size: 30px;
     padding: 20px;
     background-color: #c63848;
     color:white;
@@ -80,9 +83,9 @@ footer
 .contact {
     text-align: center;
     font-size: 40px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     height: 100vh;
 }
 
@@ -93,7 +96,6 @@ footer
 .top_title {
     text-align: center;
     font-weight: bold;
-    text-decoration: none;
     color: #c63848;
 }
 
