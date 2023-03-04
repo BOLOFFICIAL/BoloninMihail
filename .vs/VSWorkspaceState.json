@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\Files",
     "\\image",
+    "\\image\\content",
     "\\image\\logo",
     "\\image\\main"
   ],
-  "SelectedNode": "\\image\\logo\\logo.ico",
+  "SelectedNode": "\\Files\\BoloninMihail.txt",
   "PreviewInSolutionExplorer": false
 }
