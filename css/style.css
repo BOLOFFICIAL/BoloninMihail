@@ -80,8 +80,6 @@ footer
 .resume {
     display: flex;
     align-items: center;
-    align-content: center;
-    color: rebeccapurple;
     text-align: center;
     font-size: 30px;
     background-color: #ffffff;
@@ -89,47 +87,60 @@ footer
     margin: 50px auto;
     height: 100px;
     max-width: 400px;
+    width:80%;
     border-radius: 10px;
     font-weight: 900;
+    transition: background-color 0.5s ease;
 }
+    .resume:hover {
+        background-color: #FCB6BD;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+
 .contact {
     text-align: center;
     font-size: 40px;
     padding: 30px;
+    height: 100vh;
 }
 .contact_t {
+    display: flex;
+    align-items: center;
+    border: 3px solid #ffffff;
     background-color: #0088cc;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    width:100%;
-}
-.contact_v {
-    background-color: #0077ff;
-    margin: 20px 0;
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 65px;
 }
 .contact_g {
+    display: flex;
+    align-items: center;
+    border: 3px solid #ffffff;
     background-color: #D44638;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 65px;
 }
 .contact_gh {
+    display: flex;
+    align-items: center;
+    border: 3px solid #ffffff;
     background-color: #171515;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 65px;
 }
 
 .resume_d {
-    margin: 0 auto;
+    margin: 10px auto;
     color: #c63848;
 }
 
 .all_links {
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .top_title {
