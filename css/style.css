@@ -52,6 +52,7 @@ body {
     height: 40px;
     transition: background-color 1s ease;
     font-size: 25px;
+    color: #c63848;
     text-align: center;
 }
 
