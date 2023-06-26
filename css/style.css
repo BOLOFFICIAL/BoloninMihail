@@ -195,14 +195,14 @@ footer {
 }
 
 .project-card {
-    flex: 1 1 700px;
+    flex: 1 1 400px;
     display: flex;
-    max-width: 700px;
+    max-width: 400px;
     flex-direction: column;
     border: 1px solid #fff;
     border-radius: 15px;
-    background-color:#303030;
-    padding: 10px;
+    background-color: #303030;
+    padding: 15px;
     margin: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -230,8 +230,8 @@ footer {
 }
 
 .project-card button {
-    width: 130px;
-    margin: 10px auto;
+    width: 100px;
+    margin: auto;
     background-color: #404040;
     color: white;
     font-size: 15px;
